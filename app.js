@@ -33,6 +33,7 @@ boxes.forEach((box)=>{
         if (count === 9){
             msg.innerHTML= `Draw`;
             msgcontainer.classList.remove("hide");
+            count=0;
         }
         checkwinner();
     });
